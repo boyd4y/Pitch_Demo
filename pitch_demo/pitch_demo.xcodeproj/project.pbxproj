@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE2E1EE14BC65460056758F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE2E1ED14BC65460056758F /* UIKit.framework */; };
+		4DE2E1F014BC65460056758F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE2E1EF14BC65460056758F /* Foundation.framework */; };
+		4DE2E1F214BC65460056758F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE2E1F114BC65460056758F /* CoreGraphics.framework */; };
+		4DE2E1F814BC65460056758F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE2E1F614BC65460056758F /* InfoPlist.strings */; };
+		4DE2E1FB14BC65460056758F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2E1FA14BC65460056758F /* main.m */; };
+		4DE2E1FE14BC65460056758F /* pitch_demoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2E1FD14BC65460056758F /* pitch_demoAppDelegate.m */; };
+		4DE2E20114BC65460056758F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE2E1FF14BC65460056758F /* MainWindow.xib */; };
+		4DE2E20414BC65460056758F /* pitch_demoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2E20314BC65460056758F /* pitch_demoViewController.m */; };
+		4DE2E20714BC65460056758F /* pitch_demoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE2E20514BC65460056758F /* pitch_demoViewController.xib */; };
+		4DE2E22114BC76160056758F /* dywapitchtrack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2E21F14BC76160056758F /* dywapitchtrack.c */; };
+		4DE2E22514BC972A0056758F /* SCListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE2E22414BC972A0056758F /* SCListener.m */; };
+		4DE2E22714BC99310056758F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE2E22614BC99310056758F /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DE2E1E914BC65460056758F /* pitch_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pitch_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE2E1ED14BC65460056758F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DE2E1EF14BC65460056758F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DE2E1F114BC65460056758F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DE2E1F514BC65460056758F /* pitch_demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pitch_demo-Info.plist"; sourceTree = "<group>"; };
+		4DE2E1F714BC65460056758F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DE2E1F914BC65460056758F /* pitch_demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pitch_demo-Prefix.pch"; sourceTree = "<group>"; };
+		4DE2E1FA14BC65460056758F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DE2E1FC14BC65460056758F /* pitch_demoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pitch_demoAppDelegate.h; sourceTree = "<group>"; };
+		4DE2E1FD14BC65460056758F /* pitch_demoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pitch_demoAppDelegate.m; sourceTree = "<group>"; };
+		4DE2E20014BC65460056758F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4DE2E20214BC65460056758F /* pitch_demoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pitch_demoViewController.h; sourceTree = "<group>"; };
+		4DE2E20314BC65460056758F /* pitch_demoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pitch_demoViewController.m; sourceTree = "<group>"; };
+		4DE2E20614BC65460056758F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pitch_demoViewController.xib; sourceTree = "<group>"; };
+		4DE2E21F14BC76160056758F /* dywapitchtrack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dywapitchtrack.c; path = pitch_demo/dywapitchtrack.c; sourceTree = "<group>"; };
+		4DE2E22014BC76160056758F /* dywapitchtrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dywapitchtrack.h; path = pitch_demo/dywapitchtrack.h; sourceTree = "<group>"; };
+		4DE2E22314BC972A0056758F /* SCListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCListener.h; path = pitch_demo/SCListener.h; sourceTree = "<group>"; };
+		4DE2E22414BC972A0056758F /* SCListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCListener.m; path = pitch_demo/SCListener.m; sourceTree = "<group>"; };
+		4DE2E22614BC99310056758F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE2E1E614BC65460056758F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE2E22714BC99310056758F /* AudioToolbox.framework in Frameworks */,
+				4DE2E1EE14BC65460056758F /* UIKit.framework in Frameworks */,
+				4DE2E1F014BC65460056758F /* Foundation.framework in Frameworks */,
+				4DE2E1F214BC65460056758F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE2E1DE14BC65460056758F = {
+			isa = PBXGroup;
+			children = (
+				4DE2E22614BC99310056758F /* AudioToolbox.framework */,
+				4DE2E22214BC971B0056758F /* scl */,
+				4DE2E21D14BC75980056758F /* dyap */,
+				4DE2E1F314BC65460056758F /* pitch_demo */,
+				4DE2E1EC14BC65460056758F /* Frameworks */,
+				4DE2E1EA14BC65460056758F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE2E1EA14BC65460056758F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2E1E914BC65460056758F /* pitch_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE2E1EC14BC65460056758F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2E1ED14BC65460056758F /* UIKit.framework */,
+				4DE2E1EF14BC65460056758F /* Foundation.framework */,
+				4DE2E1F114BC65460056758F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DE2E1F314BC65460056758F /* pitch_demo */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2E1FC14BC65460056758F /* pitch_demoAppDelegate.h */,
+				4DE2E1FD14BC65460056758F /* pitch_demoAppDelegate.m */,
+				4DE2E1FF14BC65460056758F /* MainWindow.xib */,
+				4DE2E20214BC65460056758F /* pitch_demoViewController.h */,
+				4DE2E20314BC65460056758F /* pitch_demoViewController.m */,
+				4DE2E20514BC65460056758F /* pitch_demoViewController.xib */,
+				4DE2E1F414BC65460056758F /* Supporting Files */,
+			);
+			path = pitch_demo;
+			sourceTree = "<group>";
+		};
+		4DE2E1F414BC65460056758F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2E1F514BC65460056758F /* pitch_demo-Info.plist */,
+				4DE2E1F614BC65460056758F /* InfoPlist.strings */,
+				4DE2E1F914BC65460056758F /* pitch_demo-Prefix.pch */,
+				4DE2E1FA14BC65460056758F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DE2E21D14BC75980056758F /* dyap */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2E21F14BC76160056758F /* dywapitchtrack.c */,
+				4DE2E22014BC76160056758F /* dywapitchtrack.h */,
+			);
+			name = dyap;
+			sourceTree = "<group>";
+		};
+		4DE2E22214BC971B0056758F /* scl */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2E22314BC972A0056758F /* SCListener.h */,
+				4DE2E22414BC972A0056758F /* SCListener.m */,
+			);
+			name = scl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE2E1E814BC65460056758F /* pitch_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE2E20A14BC65460056758F /* Build configuration list for PBXNativeTarget "pitch_demo" */;
+			buildPhases = (
+				4DE2E1E514BC65460056758F /* Sources */,
+				4DE2E1E614BC65460056758F /* Frameworks */,
+				4DE2E1E714BC65460056758F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pitch_demo;
+			productName = pitch_demo;
+			productReference = 4DE2E1E914BC65460056758F /* pitch_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE2E1E014BC65460056758F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4DE2E1E314BC65460056758F /* Build configuration list for PBXProject "pitch_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DE2E1DE14BC65460056758F;
+			productRefGroup = 4DE2E1EA14BC65460056758F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE2E1E814BC65460056758F /* pitch_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE2E1E714BC65460056758F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE2E1F814BC65460056758F /* InfoPlist.strings in Resources */,
+				4DE2E20114BC65460056758F /* MainWindow.xib in Resources */,
+				4DE2E20714BC65460056758F /* pitch_demoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE2E1E514BC65460056758F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE2E1FB14BC65460056758F /* main.m in Sources */,
+				4DE2E1FE14BC65460056758F /* pitch_demoAppDelegate.m in Sources */,
+				4DE2E20414BC65460056758F /* pitch_demoViewController.m in Sources */,
+				4DE2E22114BC76160056758F /* dywapitchtrack.c in Sources */,
+				4DE2E22514BC972A0056758F /* SCListener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DE2E1F614BC65460056758F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE2E1F714BC65460056758F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DE2E1FF14BC65460056758F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE2E20014BC65460056758F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4DE2E20514BC65460056758F /* pitch_demoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE2E20614BC65460056758F /* en */,
+			);
+			name = pitch_demoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE2E20814BC65460056758F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DE2E20914BC65460056758F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4DE2E20B14BC65460056758F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pitch_demo/pitch_demo-Prefix.pch";
+				INFOPLIST_FILE = "pitch_demo/pitch_demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DE2E20C14BC65460056758F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pitch_demo/pitch_demo-Prefix.pch";
+				INFOPLIST_FILE = "pitch_demo/pitch_demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE2E1E314BC65460056758F /* Build configuration list for PBXProject "pitch_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE2E20814BC65460056758F /* Debug */,
+				4DE2E20914BC65460056758F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE2E20A14BC65460056758F /* Build configuration list for PBXNativeTarget "pitch_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE2E20B14BC65460056758F /* Debug */,
+				4DE2E20C14BC65460056758F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE2E1E014BC65460056758F /* Project object */;
+}
